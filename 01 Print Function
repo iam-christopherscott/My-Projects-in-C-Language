@@ -1,0 +1,15 @@
+\\01 Print Function
+
+{
+    printf("Hello Jaison\n"); // "\n is nothing but adding a new line."
+    printf("Hello Jaison"); // without it, the program will print Hello JaisonHello Jaison
+    // Your code here
+
+    int _a = 7; //int is a container which can store values such as ...
+                //You can either name a container with an alphabet or an underscore _. If you don't, you'll get an error.
+                //No commas are allowed too. > a = 7 or _a = 7 is okay. But _a Jaison = 7 or a Jaison = 7 is not.
+                //Punctuations are not allowed as names > _a,Jaison X
+                //No Special Symbols other than _ Underscore is allowed to name the container.
+                //Containers are case sensitive. So Jaison and jaison are two different variables.
+    return(0); //returning value to int main()
+}
