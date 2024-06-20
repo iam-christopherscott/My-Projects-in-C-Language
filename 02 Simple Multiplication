@@ -1,0 +1,12 @@
+{
+    printf("Enter your number:\n");
+    int a; // Declare an integer variable 'a' to store user input
+    scanf("%d", &a); // Read an integer from standard input from a user and store it in 'a'
+    printf("Your number is %d\n", a); // Display the number entered by the user
+    printf("Enter a second number to multiply it by the previous number:\n");
+    int b;
+    scanf("%d", &b);
+    printf("The total is %d\n", b * a);
+    return(0);
+
+}
