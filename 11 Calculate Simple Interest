@@ -1,0 +1,25 @@
+{
+    /*
+    S.I. = (P × R × T)/100
+
+    Principal Amount is is 100
+    Rate of interest is 6%
+    No of years are 4
+    Answer should be 24
+    */
+
+{
+    double p;
+    printf("Insert the Principal Amount\n");
+    scanf("%lf", &p);
+    double r;
+    printf("Insert the Rate of Interest\n");
+    scanf("%lf", &r);
+    double t;
+    printf("Insert the No. of Years\n");
+    scanf("%lf", &t);
+    printf("The Simple Interest is %lf\n", (p * r * t) /100);
+    printf("The final amount payable to the bank would be %lf\n", (p * r * t) /100 + p);
+    return(0);
+
+}
