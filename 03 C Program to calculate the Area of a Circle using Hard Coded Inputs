@@ -1,0 +1,6 @@
+{
+    int a = 4;
+    int b = 7;
+    printf("The Area of a Circle is %d", a*b);
+    return(0); //returning value to int main()
+}
