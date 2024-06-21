@@ -1,0 +1,10 @@
+{
+    int a;
+    int b;
+    printf("Enter the value of length\n");
+    scanf("%d", &a);
+    printf("Enter the value of breadth\n");
+    scanf("%d", &b);
+    printf("The Area of a Circle is %d", a*b);
+    return(0);
+}
