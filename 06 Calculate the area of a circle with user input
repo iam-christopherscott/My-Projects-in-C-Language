@@ -1,0 +1,8 @@
+{
+    //Area of a circle: A=πr2 (5 = 78.53982)
+    int r;
+    printf("Enter the value of the Radius to calculate the are of the Circle\n");
+    scanf("%d", &r);
+    printf("The Area of the circle is %f", 3.14159265359*r*r);
+    return(0);
+}
