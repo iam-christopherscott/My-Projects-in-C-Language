@@ -1,0 +1,7 @@
+{
+    int r = 4;
+    printf("The area of a cirle is %f\n", 3.14159265359*r*r);
+    int h = 5;
+    printf("The volume of a cylinder is %f", 3.14159265359*r*r*h);
+    return(0); //returning value to int main()
+}
