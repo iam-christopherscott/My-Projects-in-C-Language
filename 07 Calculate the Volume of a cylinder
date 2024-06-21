@@ -1,0 +1,12 @@
+{
+    //Volume of a cylinder: V=πr2h (r=5, h=5 = 392.69908)
+    // with user input
+    int r;
+    printf("Enter the Radius of the Circle\n");
+    scanf("%d", &r);
+    printf("Enter the Height of the Circle\n");
+    int h;
+    scanf("%d", &h);
+    printf("The Volume of the Cylinder is %f", 3.14159265359*r*r*h);
+    return(0);
+}
