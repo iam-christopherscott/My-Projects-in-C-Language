@@ -1,0 +1,33 @@
+// Q3. Write a program to check whether a number is divisible by 97 or not.
+#include<stdio.h>
+int main()
+/*
+
+// This program is hardcoded.
+{
+    int a = 194;
+    printf("%d", a%97);
+    return(0);
+}
+*/
+
+/*
+// This program takes the input from the user.
+{
+    int a;
+    printf("Insert a number\n");
+    scanf("%d", &a);
+    printf("Answer: 0 = Divisible; 1 = Not Divisible by 97\n %d", a%97);
+}
+*/
+
+// Check divisibility with a number.
+{
+    int a;
+    printf("Enter a number\n");
+    scanf("%d", &a);
+    int b;
+    printf("Enter another number to check its divisibility with the previous number\n");
+    scanf("%d", &b);
+    printf("Answer: 0 = Divisible; 1 = Not Divisible\n %d", a%b);
+}
