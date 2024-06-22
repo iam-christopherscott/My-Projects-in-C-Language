@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+//To check age eligibility for driving with if-else condition hard coded.
+/*
+{
+    int a = 5;
+    if(a>4){
+        printf("a is greater than 4");
+    }
+    else{
+        printf("a is not greater than 4");
+    }
+    return(0);
+}
+*/
+
+// To check age eligibility for driving with if-else condition with user input.
+{
+    int a;
+    printf("Enter your age to check if you're eligible to drive on the road\n");
+    scanf("%d", &a);
+    if(a>18){
+        printf("Congratulations! You are eligible to drive on the road.");
+    }
+    else{
+        printf("Currently, you are not eligible to drive on the road! Please wait until you turn 18.");
+    }
+}
