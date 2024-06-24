@@ -13,7 +13,7 @@ int main()
     else if(age>15){ // If the condition is not met at if, it will check for else if. If it matches, it will ignore else.
     printf("You are not eligible to drive, but we'll check for a toy vehicle for you!");
     }
-    //The last else is optional
+    //The last else is optional. This will only be executed if all the previous conditions fail.
     else{ // If the condition doesn't match if or else if, C will check for else condition.
         printf("Sorry, you're just a kid. Better; luck once you grow up!");
     }
@@ -34,7 +34,7 @@ int main()
     else if(age>15){ // If the condition is not met at if, it will check for else if. If it matches, it will ignore else.
     printf("You are not eligible to drive, but we'll check for a toy vehicle for you!");
     }
-    //The last else is optional
+    //The last else is optional. This will only be executed if all the previous conditions fail.
     else{ // If the condition doesn't match if or else if, C will check for else condition.
         printf("Sorry, you're just a kid. Better; luck once you grow up!");
     }
