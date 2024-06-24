@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main()
+
+// if else if else Ladder with hardcode input
+/*
+{
+    int age = 45;
+    int placeCode = 12;
+    if(age>18){ // If the condition at if is met, it will ignore else if and else.
+    printf("You are eligible to drive");
+    }
+    // NOTE: You can have more than 1 else if!!!
+    else if(age>15){ // If the condition is not met at if, it will check for else if. If it matches, it will ignore else.
+    printf("You are not eligible to drive, but we'll check for a toy vehicle for you!");
+    }
+    else{ // If the condition doesn't match if or else if, C will check for else condition.
+        printf("Sorry, you're just a kid. Better; luck once you grow up!");
+    }
+    return(0);
+}
+*/
+
+// if else if else Ladder with user input
+{
+    int age;
+    printf("Please enter your age to check if you're eligible to drive.");
+    scanf("%d", &age);
+    int placeCode = 12;
+    if(age>17){ // If the condition at if is met, it will ignore else if and else.
+    printf("You are eligible to drive");
+    }
+    // NOTE: You can have more than 1 else if!!!
+    else if(age>15){ // If the condition is not met at if, it will check for else if. If it matches, it will ignore else.
+    printf("You are not eligible to drive, but we'll check for a toy vehicle for you!");
+    }
+    else{ // If the condition doesn't match if or else if, C will check for else condition.
+        printf("Sorry, you're just a kid. Better; luck once you grow up!");
+    }
+    return(0);
+}
